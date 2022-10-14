@@ -38,6 +38,10 @@ public class College {
 			System.out.println(res.getString(2));
 		}
 		
+		
+		InsertStudentData studentData = new InsertStudentData();
+		
+		studentData.newStudentData();
 
 	}
 
