@@ -30,18 +30,15 @@ public class College {
 
 	public static void main(String[] args) throws SQLException {
 		// TODO Auto-generated method stub
-		StudentData std = new StudentData();
-		ResultSet res = std.getStudentData();
-		
-		while(res.next()) {
-			
-			System.out.println(res.getString(2));
-		}
 		
 		
-		InsertStudentData studentData = new InsertStudentData();
 		
-		studentData.newStudentData();
+		
+		
+		
+		
+		Application app = new Application();
+		app.collegeApplication();
 
 	}
 
